@@ -8,7 +8,7 @@ spec:
     spec:
       containers:
       - name: ansible-keycloak-integration
-        image: quay.io/mahesh_v/ansible-keycloak-integration
+        image: quay.io/mahesh_v/ansible-keycloak-integration:v1
         envFrom:
         - configMapRef:
             name: argocd-configs
