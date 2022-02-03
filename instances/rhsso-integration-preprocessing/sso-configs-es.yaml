@@ -59,6 +59,10 @@ spec:
       key: secret/rhsso
       property: AZURE_X509_CERT
     secretKey: AZURE_X509_CERT
+  - remoteRef:
+      key: secret/rhsso
+      property: ANSIBLE_X509_CERT
+    secretKey: ANSIBLE_X509_CERT
   refreshInterval: 15s
   secretStoreRef:
     kind: SecretStore
